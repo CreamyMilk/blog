@@ -1,0 +1,129 @@
+navbar {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.logo{
+    background-color: pink;
+    display: flex;
+    align-items: center;
+}
+
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+li{
+    margin: 5px;
+}
+
+
+input{
+    padding: 20px;
+    font-size: 12px;
+    background-color: lightgrey;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.gallery-background {
+    position: relative;
+}
+.gallery-background > img{
+    object-fit:cover;
+    max-height: 410px;
+    width: 100%;
+}
+
+.gallery-text {
+    width: 60%;
+    position: absolute;
+        bottom: 30;
+        left: 100;
+        right: 0;
+} 
+
+.metadata{
+    display: flex;
+    flex-direction: column;
+}
+
+.big-image-name{
+    font-size: 50px;
+    color: white;
+}
+
+.category{
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    background-color: red;
+    border-radius: 8px;
+}
+
+.control-section{
+    width: 100%;
+    margin-left: 10%;
+    width: 80%;
+    background-color: whitesmoke;
+}
+
+.fby4 {
+    display: grid;
+    /* grid-template-columns: auto auto ; */
+    grid-template-columns: repeat(2, 2fr);
+    /* max-width: 50%; */
+}
+
+
+.grid-item{
+    background-color: white;
+    padding: 10px;
+    margin:10px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    border-radius: 8px;
+}
+.phiti{
+    background-color: bisque;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.mini-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.name-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    font-size: 12px;
+}
+
+.date-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+}
